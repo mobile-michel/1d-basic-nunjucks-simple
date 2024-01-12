@@ -1,0 +1,21 @@
+{
+  "name": "1d-basic-nunjucks-simple",
+  "version": "1.0.0",
+  "description": "Eleventy 2.0.1 basic template with Nunjucks templating & Simple CSS framework",
+  "main": "eleventy.config.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "eleventy",
+    "debug": "DEBUG=* eleventy"
+  },
+  "keywords": [
+    "eleventy",
+    "nunjucks",
+    "simple"
+],
+  "author": "Michel Maillard",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
