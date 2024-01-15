@@ -1,4 +1,4 @@
-# Basic template with Eleventy, Nunjucks & Simple CSS framework
+# Basic template with Eleventy, Liquid & Simple CSS framework
 
 ## Folder structure
 
@@ -11,9 +11,9 @@
 
 ## Page layout
 
-- _layouts/base.njk
-- _includes/header.njk
-- _includes/footer.njk
+- _layouts/base.liquid
+- _includes/header.liquid
+- _includes/footer.liquid
 
 ## Responsive navbar
 

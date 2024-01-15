@@ -13,12 +13,12 @@
 </head>
 
 <body>
-  {% include 'header.njk' %}
+  {% include 'header' %}
   <main>
     <h1>{{ title }}</h1>
-    {{ content | safe }}
+    {{ content }}
   </main>
-  {% include 'footer.njk' %}
+  {% include 'footer' %}
 </body>
 
 </html>

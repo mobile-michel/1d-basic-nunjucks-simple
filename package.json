@@ -1,7 +1,7 @@
 {
-  "name": "1d-basic-nunjucks-simple",
+  "name": "1d-basic-liquid-simple",
   "version": "1.0.0",
-  "description": "Eleventy 2.0.1 basic template with Nunjucks templating & Simple CSS framework",
+  "description": "Eleventy 2.0.1 basic template with Liquid templating & Simple CSS framework",
   "main": "eleventy.config.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
@@ -10,7 +10,7 @@
   },
   "keywords": [
     "eleventy",
-    "nunjucks",
+    "liquid",
     "simple"
 ],
   "author": "Michel Maillard",
